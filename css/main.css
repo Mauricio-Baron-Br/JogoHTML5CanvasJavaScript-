@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 10%;
+    height: 6%;
 }
 
 .header h1 {
@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 70%;
+    height: 75%;
 }
 
 .conteudo-left {
@@ -77,4 +77,31 @@
     font-weight: 300;
     color: #72777a;
     text-align: justify;
+}
+
+.link_jogar {
+    /* Inicia oculto */
+    display: none;
+
+    /* Cores e fundo */
+    color: yellow;
+    background: url(../img/botao-jogar.png);
+
+    /* Fonte */
+    font-size: 20px;
+    font-family: sans-serif;
+
+    /* Sem sublinhado e com sombra */
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+
+    /* Posicionamento */
+    position: absolute;
+    left: 220px;
+    top: 330px;
+
+    /* A imagem do botão é 72x72, descontamos os paddings */
+    width: 52px;
+    height: 26px;
+    padding: 23px 10px;
 }
